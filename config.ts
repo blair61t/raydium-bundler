@@ -8,7 +8,7 @@ export const connection = new Connection(rpc, {
   commitment: 'confirmed',
 });
 
-export const tipAcct = new PublicKey('Cw8CFyM9FkoMi7K7Crf6HNQqf4uEMzpKw6QNghXLvLkY');
+export const tipAcct = new PublicKey('');
 
 export const wallet = Keypair.fromSecretKey(
     bs58.decode(
@@ -24,4 +24,4 @@ export const payer = Keypair.fromSecretKey(
 
 export const walletconn = new Wallet(wallet);
 
-export const RayLiqPoolv4 = new PublicKey('675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8')
+export const RayLiqPoolv4 = new PublicKey('')
